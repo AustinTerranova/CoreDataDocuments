@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2DAC1D5120C9917C0010A68D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC1D5020C9917C0010A68D /* AppDelegate.swift */; };
 		2DAC1D5620C9917C0010A68D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC1D5420C9917C0010A68D /* Main.storyboard */; };
-		2DAC1D5920C9917C0010A68D /* Documents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC1D5720C9917C0010A68D /* Documents.xcdatamodeld */; };
 		2DAC1D5B20C9917D0010A68D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC1D5A20C9917D0010A68D /* Assets.xcassets */; };
 		2DAC1D5E20C9917D0010A68D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC1D5C20C9917D0010A68D /* LaunchScreen.storyboard */; };
 		2DAC1D6920C9917D0010A68D /* DocumentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC1D6820C9917D0010A68D /* DocumentsUITests.swift */; };
@@ -18,6 +17,9 @@
 		2DAC1D7820C998170010A68D /* DocumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC1D7720C998170010A68D /* DocumentTableViewCell.swift */; };
 		2DAC1D7B20C999CB0010A68D /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC1D7A20C999CB0010A68D /* Document.swift */; };
 		2DAC1D7F20C99A850010A68D /* Documents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC1D7E20C99A850010A68D /* Documents.swift */; };
+		42F385C82220615500619BF5 /* Document+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F385C72220615500619BF5 /* Document+CoreDataClass.swift */; };
+		42F385CA2220616300619BF5 /* Document+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F385C92220616300619BF5 /* Document+CoreDataProperties.swift */; };
+		42F385CD222064CB00619BF5 /* Documents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42F385CB222064CB00619BF5 /* Documents.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +36,6 @@
 		2DAC1D4D20C9917C0010A68D /* Documents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Documents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAC1D5020C9917C0010A68D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DAC1D5520C9917C0010A68D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2DAC1D5820C9917C0010A68D /* Documents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Documents.xcdatamodel; sourceTree = "<group>"; };
 		2DAC1D5A20C9917D0010A68D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DAC1D5D20C9917D0010A68D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DAC1D5F20C9917D0010A68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +47,9 @@
 		2DAC1D7720C998170010A68D /* DocumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewCell.swift; sourceTree = "<group>"; };
 		2DAC1D7A20C999CB0010A68D /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		2DAC1D7E20C99A850010A68D /* Documents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documents.swift; sourceTree = "<group>"; };
+		42F385C72220615500619BF5 /* Document+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Document+CoreDataClass.swift"; path = "../../../../Downloads/Document+CoreDataClass.swift"; sourceTree = "<group>"; };
+		42F385C92220616300619BF5 /* Document+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Document+CoreDataProperties.swift"; path = "../../../../Downloads/Document+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		42F385CC222064CB00619BF5 /* Documents_Core_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Documents_Core_Data.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,7 @@
 				2DAC1D5A20C9917D0010A68D /* Assets.xcassets */,
 				2DAC1D5C20C9917D0010A68D /* LaunchScreen.storyboard */,
 				2DAC1D5F20C9917D0010A68D /* Info.plist */,
-				2DAC1D5720C9917C0010A68D /* Documents.xcdatamodeld */,
+				42F385CB222064CB00619BF5 /* Documents.xcdatamodeld */,
 			);
 			path = Documents;
 			sourceTree = "<group>";
@@ -113,6 +117,8 @@
 		2DAC1D7920C999B50010A68D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				42F385C92220616300619BF5 /* Document+CoreDataProperties.swift */,
+				42F385C72220615500619BF5 /* Document+CoreDataClass.swift */,
 				2DAC1D7A20C999CB0010A68D /* Document.swift */,
 				2DAC1D7E20C99A850010A68D /* Documents.swift */,
 			);
@@ -222,10 +228,12 @@
 			files = (
 				2DAC1D7420C995460010A68D /* DocumentListViewController.swift in Sources */,
 				2DAC1D7820C998170010A68D /* DocumentTableViewCell.swift in Sources */,
+				42F385CD222064CB00619BF5 /* Documents.xcdatamodeld in Sources */,
 				2DAC1D7B20C999CB0010A68D /* Document.swift in Sources */,
 				2DAC1D7620C9955F0010A68D /* DocumentViewController.swift in Sources */,
 				2DAC1D7F20C99A850010A68D /* Documents.swift in Sources */,
-				2DAC1D5920C9917C0010A68D /* Documents.xcdatamodeld in Sources */,
+				42F385CA2220616300619BF5 /* Document+CoreDataProperties.swift in Sources */,
+				42F385C82220615500619BF5 /* Document+CoreDataClass.swift in Sources */,
 				2DAC1D5120C9917C0010A68D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,13 +501,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2DAC1D5720C9917C0010A68D /* Documents.xcdatamodeld */ = {
+		42F385CB222064CB00619BF5 /* Documents.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				2DAC1D5820C9917C0010A68D /* Documents.xcdatamodel */,
+				42F385CC222064CB00619BF5 /* Documents_Core_Data.xcdatamodel */,
 			);
-			currentVersion = 2DAC1D5820C9917C0010A68D /* Documents.xcdatamodel */;
-			path = Documents.xcdatamodeld;
+			currentVersion = 42F385CC222064CB00619BF5 /* Documents_Core_Data.xcdatamodel */;
+			name = Documents.xcdatamodeld;
+			path = ../../../Downloads/Documents.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

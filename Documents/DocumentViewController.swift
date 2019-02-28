@@ -9,7 +9,7 @@
 import UIKit
 
 class DocumentViewController: UIViewController {
-    
+    var documents = DocumentTableViewCell()
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var documentTextView: UITextView!
     
@@ -40,6 +40,9 @@ class DocumentViewController: UIViewController {
         guard let name = nameTextField.text else {
             return
         }
+        
+        //let entity = Entity(size: <#T##Int64#>, name: <#T##String#>, dateModified: <#T##Date#>, content: <#T##String#>)
+       
         
         Documents.save(name: name, content: documentTextView.text)
         
